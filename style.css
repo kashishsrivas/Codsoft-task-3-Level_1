@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a0b5f1;
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #95f1c0;
+  box-shadow: 0 5px 10px  #343030;;
+}
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #070707;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: pink;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #343030ec;
+}
+
+footer{
+        padding: 20px;
+        text-align: center;
+    }
